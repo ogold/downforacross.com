@@ -8,7 +8,7 @@
 ### http server (host = downforacross.com)
 
 - Prod: Hosts are both api.foracross.com/
-- Staging: Hosted at api-staging.foracross.com, or `localhost:3021` if running `yarn devbackend` locally.
+- Staging: Hosted at api.foracross.com, or `localhost:3021` if running `yarn devbackend` locally.
 
 ### websocket server
 
@@ -22,7 +22,7 @@
 
 - Production build has `SERVER_URL = "https://api.foracross.com"`
   - This is `yarn build`, used by vercel for both production and preview deployments
-- Development build (e.g. `yarn start`) has `SERVER_URL = "https://api-staging.foracross.com"`.
+- Development build (e.g. `yarn start`) has `SERVER_URL = "https://api.foracross.com"`.
   - This is `yarn start`
 - Development with `process.env.REACT_APP_USE_LOCAL_SERVER=1` has `SERVER_URL = localhost:3021`
   - This is `yarn devfrontend`
