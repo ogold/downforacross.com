@@ -7,6 +7,8 @@ Downforacross is an online website for sharing crosswords and playing collaborat
 
 It is hosted at https://downforacross.com/.
 
+This is a dummy change for testing purposes.
+
 ## Contributing
 
 If you notice a bug or have a feature request, feel free to open an issue.
